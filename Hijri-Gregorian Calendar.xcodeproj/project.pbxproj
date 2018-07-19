@@ -8,20 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		771F92B120FC866300421776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F92B020FC866300421776 /* AppDelegate.swift */; };
-		771F92B320FC866300421776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F92B220FC866300421776 /* ViewController.swift */; };
 		771F92B620FC866300421776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771F92B420FC866300421776 /* Main.storyboard */; };
 		771F92B820FC866400421776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771F92B720FC866400421776 /* Assets.xcassets */; };
 		771F92BB20FC866400421776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771F92B920FC866400421776 /* LaunchScreen.storyboard */; };
+		771F92C320FC86D100421776 /* CalenderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F92C220FC86D100421776 /* CalenderPage.swift */; };
+		771F92CA20FC86E400421776 /* BSIslamicCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771F92C620FC86E400421776 /* BSIslamicCalendarCell.xib */; };
+		771F92CB20FC86E400421776 /* BSIslamicCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F92C820FC86E400421776 /* BSIslamicCalendarCell.m */; };
+		771F92CC20FC86E400421776 /* BSIslamicCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F92C920FC86E400421776 /* BSIslamicCalendar.m */; };
+		771F92CF20FC872F00421776 /* JTSegmentPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F92CD20FC872E00421776 /* JTSegmentPattern.swift */; };
+		771F92D020FC872F00421776 /* JTSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F92CE20FC872E00421776 /* JTSegmentControl.swift */; };
+		771F92D220FC89AF00421776 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F92D120FC89AF00421776 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		771F92AD20FC866300421776 /* Hijri-Gregorian Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hijri-Gregorian Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		771F92B020FC866300421776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		771F92B220FC866300421776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		771F92B520FC866300421776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		771F92B720FC866400421776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771F92BA20FC866400421776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771F92BC20FC866400421776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771F92C220FC86D100421776 /* CalenderPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderPage.swift; sourceTree = "<group>"; };
+		771F92C420FC86E300421776 /* Hijri-Gregorian Calendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hijri-Gregorian Calendar-Bridging-Header.h"; sourceTree = "<group>"; };
+		771F92C520FC86E400421776 /* BSIslamicCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIslamicCalendar.h; sourceTree = "<group>"; };
+		771F92C620FC86E400421776 /* BSIslamicCalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSIslamicCalendarCell.xib; sourceTree = "<group>"; };
+		771F92C720FC86E400421776 /* BSIslamicCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIslamicCalendarCell.h; sourceTree = "<group>"; };
+		771F92C820FC86E400421776 /* BSIslamicCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIslamicCalendarCell.m; sourceTree = "<group>"; };
+		771F92C920FC86E400421776 /* BSIslamicCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIslamicCalendar.m; sourceTree = "<group>"; };
+		771F92CD20FC872E00421776 /* JTSegmentPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTSegmentPattern.swift; sourceTree = "<group>"; };
+		771F92CE20FC872E00421776 /* JTSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTSegmentControl.swift; sourceTree = "<group>"; };
+		771F92D120FC89AF00421776 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +53,16 @@
 		771F92A420FC866300421776 = {
 			isa = PBXGroup;
 			children = (
+				771F92CE20FC872E00421776 /* JTSegmentControl.swift */,
+				771F92CD20FC872E00421776 /* JTSegmentPattern.swift */,
+				771F92C520FC86E400421776 /* BSIslamicCalendar.h */,
+				771F92C920FC86E400421776 /* BSIslamicCalendar.m */,
+				771F92C720FC86E400421776 /* BSIslamicCalendarCell.h */,
+				771F92C820FC86E400421776 /* BSIslamicCalendarCell.m */,
+				771F92C620FC86E400421776 /* BSIslamicCalendarCell.xib */,
 				771F92AF20FC866300421776 /* Hijri-Gregorian Calendar */,
 				771F92AE20FC866300421776 /* Products */,
+				771F92C420FC86E300421776 /* Hijri-Gregorian Calendar-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +77,9 @@
 		771F92AF20FC866300421776 /* Hijri-Gregorian Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				771F92D120FC89AF00421776 /* ViewExtension.swift */,
 				771F92B020FC866300421776 /* AppDelegate.swift */,
-				771F92B220FC866300421776 /* ViewController.swift */,
+				771F92C220FC86D100421776 /* CalenderPage.swift */,
 				771F92B420FC866300421776 /* Main.storyboard */,
 				771F92B720FC866400421776 /* Assets.xcassets */,
 				771F92B920FC866400421776 /* LaunchScreen.storyboard */,
@@ -96,6 +120,7 @@
 				TargetAttributes = {
 					771F92AC20FC866300421776 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -125,6 +150,7 @@
 				771F92BB20FC866400421776 /* LaunchScreen.storyboard in Resources */,
 				771F92B820FC866400421776 /* Assets.xcassets in Resources */,
 				771F92B620FC866300421776 /* Main.storyboard in Resources */,
+				771F92CA20FC86E400421776 /* BSIslamicCalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				771F92B320FC866300421776 /* ViewController.swift in Sources */,
+				771F92CF20FC872F00421776 /* JTSegmentPattern.swift in Sources */,
+				771F92D020FC872F00421776 /* JTSegmentControl.swift in Sources */,
+				771F92C320FC86D100421776 /* CalenderPage.swift in Sources */,
+				771F92D220FC89AF00421776 /* ViewExtension.swift in Sources */,
+				771F92CB20FC86E400421776 /* BSIslamicCalendarCell.m in Sources */,
 				771F92B120FC866300421776 /* AppDelegate.swift in Sources */,
+				771F92CC20FC86E400421776 /* BSIslamicCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hijri-Gregorian Calendar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,6 +320,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Hijri-Gregorian-Calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hijri-Gregorian Calendar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hijri-Gregorian Calendar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Hijri-Gregorian-Calendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hijri-Gregorian Calendar-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
